@@ -1,0 +1,1 @@
+azcopy copy centos8s-virtualbox.box $env:AZURE_BLOB_STORAGE_WITH_SAS
