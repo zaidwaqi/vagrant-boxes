@@ -4,7 +4,7 @@ variable "iso_url" {
 
 variable "iso_checksum" {
   # Get-FileHash <iso_url> -Algorithm SHA256
-  default = "29B4F0E46321ACF7A75A3C7A6423645F2B280703D0E88C7731F4F7C631563A5F"
+  default = "5ea6d875f8ba256f4eac48957c075fcc8fee2b200fd69e3a03000c741306d756"
 }
 
 source "virtualbox-iso" "centos8s" {
